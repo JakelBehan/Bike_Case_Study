@@ -4,6 +4,6 @@ In this hypothetical case study we are tasked with analyzing the data for a fict
 
 # Preparing_and_Processing
 
-The data was downloaded from the following url https://divvy-tripdata.s3.amazonaws.com/index.html. 
+The data was downloaded from the following url https://divvy-tripdata.s3.amazonaws.com/index.html. We have been given permission to use the data under this licensing https://www.divvybikes.com/data-license-agreement. 
 
 The Following files are SQL queries made in Google Big Query Sandbox version. The Data tables created no longer exist becasue storage is allocated to a set amount of time in the free version on Big Query. These queries are used to demonstrate the data cleaning process used For the project.
