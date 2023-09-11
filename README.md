@@ -4,6 +4,12 @@
 
 # Preparing_and_Processing
 
-  The data was downloaded from the following url https://divvy-tripdata.s3.amazonaws.com/index.html. We have been given permission to use the data under this licensing https://www.divvybikes.com/data-license-agreement. 
+  The data was downloaded from the following url https://divvy-tripdata.s3.amazonaws.com/index.html. We have been given permission to use the data under this licensing https://www.divvybikes.com/data-license-agreement. The zip files containing data from March 2022 through February 2023 were downloaded in order to have an entire year of information. Once the zip files were downloaded and saved locally they were unzipped into .csv files and stored in their own directory. Combined, the files contain over a gigabyte of data so analyzing them in excel or google sheets would be clumsy and slow. Because of the size, an SQL platform was chosen for processing and cleaning. The .csv files were then uploaded to Google BigQuery Sandbox where every file was now its own table. Following this a series of queries were made which cleaned and organized the data set into one final table allowing for easy analysis. The queries were saved and can be seen in the "Query" folder within this repository. The Data tables created unfortunately no longer exist because storage is allocated to a set amount of time in the free version of BigQuery.
 
-  The Following files are SQL queries made in Google Big Query Sandbox version. The Data tables created no longer exist becasue storage is allocated to a set amount of time in the free version on Big Query. These queries are used to demonstrate the data cleaning process used For the project.
+# Analysis
+
+Connected sheets is a linked version of google sheet connected to BigQuery. Using connected sheets and its unique functions, analysis was conducted on our final data set. Various Pivot tables, charts and calculations were made from the data that gave insight to seasonal trends and behavioral differences between members and casual riders. Tableau was also used in an instance where geographical data was used to make a density plot. It's important to note that the free version of tableau would not allow for the final data set to be uploaded due to its size. Because of this the most representative month by number rides (October) was used for that portion of analysis. The same table was also used for other plots due to the inconvenient limitations placed in the sandbox version of BigQuery that eventually required use of smaller data sets.
+
+# Share
+
+  A Presentation utilizing all the charts and insight gathered was made in Google Slides. It Details the findings and gives recommendations on how to move forward given the business task.
