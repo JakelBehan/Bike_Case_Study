@@ -8,7 +8,7 @@
 
 # Analysis
 
-Connected sheets is a linked version of google sheet connected to BigQuery. Using connected sheets and its unique functions, analysis was conducted on our final data set. Various Pivot tables, charts and calculations were made from the data that gave insight to seasonal trends and behavioral differences between members and casual riders. Tableau was also used in an instance where geographical data was used to make a density plot. It's important to note that the free version of tableau would not allow for the final data set to be uploaded due to its size. Because of this the most representative month by number rides (October) was used for that portion of analysis. The same table was also used for other plots due to the inconvenient limitations placed in the sandbox version of BigQuery that eventually required use of smaller data sets.
+Connected sheets is a linked version of google sheet connected to BigQuery. Using connected sheets and its unique functions, analysis was conducted on our final data set. Various Pivot tables, charts and calculations were made from the data that gave insight to seasonal trends and behavioral differences between members and casual riders. Tableau was also used in an instance where geographical data was used to make a density plot. It's important to note that the free version of tableau would not allow for the final data set to be uploaded due to its size. Because of this the most representative month by number of rides (October) was used for that portion of analysis. The same table was also used for other plots due to the inconvenient limitations placed in the sandbox version of BigQuery that eventually required use of smaller data sets.
 
 # Share
 
