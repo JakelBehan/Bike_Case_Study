@@ -13,3 +13,8 @@ Connected sheets is a linked version of google sheet connected to BigQuery. Usin
 # Share
 
   A Presentation utilizing all the charts and insight gathered was made in Google Slides. It Details the findings and gives recommendations on how to move forward given the business task. The presentation is linked here https://docs.google.com/presentation/d/1kqAjQuax-3NQCSskoIHPwQ5elygtzFuQdgNji6dJoOA/edit?usp=sharing
+
+# Other
+
+  After completing this case study I received my Google Data Analytics Professional Certificate. The file labeled "Google Data Analytics Professional Certificate" is the certification.
+
